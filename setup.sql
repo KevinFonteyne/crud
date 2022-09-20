@@ -37,5 +37,45 @@ INSERT INTO data_type (
 ) VALUES(
     "Booleans",
     "True or false values",
-    "Named after GEorge Boole (Boolean Algebra); These can take true or false as their values"
+    "Named after George Boole (Boolean Algebra); These can take true or false as their values"
+);
+
+INSERT INTO data_type (
+    name, 
+    summary,
+    description
+) VALUES(
+    "Strings",
+    "A sequence of characters",
+    "'Hello world' is an example of a string."
+);
+
+INSERT INTO data_type (
+    name, 
+    summary,
+    description
+) VALUES(
+    "Lists",
+    "Items in an ordered or unordered structure",
+    " A list can be used for a number of things like storing items or deleting and adding items"
+);
+
+INSERT INTO data_type (
+    name, 
+    summary,
+    description
+) VALUES(
+    "Dictionaries",
+    "A key-value store",
+    "The concept of a key-value store is widely used in various computing systems, such as caches and high-performance databases"
+);
+
+INSERT INTO data_type (
+    name, 
+    summary,
+    description
+) VALUES(
+    "Tuples",
+    "an ordered set of values",
+    "A tuple may include zero or more elements. To indicate how many elements it contains, it may be called an n-tuple, where n is the number of elements. Often, a tuple is represented as a comma-delimited list of the elements, enclosed in parentheses. For example, (5, 9, 11, 3, 22, 14) is a 6-tuple."
 );
